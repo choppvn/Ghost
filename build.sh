@@ -1,1 +1,3 @@
-cd content/themes/kitchen && zip -r ../../../build/kitchen.zip . && cd ../../..
+cd content/themes/kitchen &&
+zip -r ../../../build/kitchen.zip . -x *.git* &&
+cd ../../..
